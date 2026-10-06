@@ -1,0 +1,10 @@
+__pycache__/
+logs/
+recv/
+testfiles/
+dist/
+build/
+*.spec
+*.bak
+*.png
+待发送/

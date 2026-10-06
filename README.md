@@ -35,8 +35,6 @@
 ├── mt_ui.py                 # tkinter 界面
 ├── 启动 MyTransfer.bat      # 双击启动
 ├── 握手.ico                 # 图标
-├── shortcut/
-│   └── 接收电脑文件.shortcut  # 快捷指令半成品（生成器产物，见下）
 ├── docs/
 │   ├── 快捷指令创建指南.md    # ← iPhone 端照抄搭建，推荐
 │   ├── API.md               # 快捷指令专用接口文档
@@ -44,7 +42,6 @@
 └── tools/
     ├── test_shortcut_api.py # API 全链路测试（20/20）
     ├── run_test.py / url_flow.py
-    ├── gen_shortcut.py      # 重新生成 .shortcut
     └── ...
 ```
 
@@ -67,12 +64,6 @@ pyinstaller --onefile --noconsole --name 握手 --icon 握手.ico MyTransfer.py
 ```
 
 （exe 与源码同目录运行：日志在 `logs\`，待发送文件夹在 `待发送\`。）
-
-## `.shortcut` 文件说明（诚实声明）
-
-`shortcut/接收电脑文件.shortcut` 由 `tools/gen_shortcut.py` 按标准 plist 结构生成，
-**未经真机导入验证**；且 iOS 15+ 系统会拒绝导入未签名快捷指令（Apple 安全策略）。
-因此**推荐按 `docs/快捷指令创建指南.md` 手动搭建**——那是最终在真机上跑通的版本。
 
 ## 已知限制
 

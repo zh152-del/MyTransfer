@@ -1,0 +1,73 @@
+301 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.8
+301 INFO: Python: 3.13.14
+323 INFO: Platform: Windows-10-10.0.19045-SP0
+324 INFO: Python environment: C:\Program Files\Python313
+334 INFO: wrote F:\work Buddy\2026-10-05-17-12-22\MyTransfer\握手.spec
+345 INFO: Removing temporary files and cleaning cache in C:\Users\Administrator\AppData\Local\pyinstaller
+350 INFO: Module search paths (PYTHONPATH):
+['F:\\work Buddy\\2026-10-05-17-12-22\\MyTransfer',
+ 'E:\\anget\\WorkBuddy\\resources\\app.asar.unpacked\\cli\\vendor\\shim',
+ 'C:\\Program Files\\Python313\\python313.zip',
+ 'C:\\Program Files\\Python313\\DLLs',
+ 'C:\\Program Files\\Python313\\Lib',
+ 'C:\\Program Files\\Python313',
+ 'C:\\Users\\Administrator\\AppData\\Roaming\\Python\\Python313\\site-packages',
+ 'C:\\Program Files\\Python313\\Lib\\site-packages',
+ 'C:\\Program Files\\Python313\\Lib\\site-packages\\win32',
+ 'C:\\Program Files\\Python313\\Lib\\site-packages\\win32\\lib',
+ 'C:\\Program Files\\Python313\\Lib\\site-packages\\pythonwin',
+ 'F:\\work Buddy\\2026-10-05-17-12-22\\MyTransfer']
+3046 INFO: checking Analysis
+3047 INFO: Building Analysis because Analysis-00.toc is non existent
+3047 INFO: Looking for Python shared library...
+3047 INFO: Using Python shared library: C:\Program Files\Python313\python313.dll
+3047 INFO: Running Analysis Analysis-00.toc
+3047 INFO: Target bytecode optimization level: 0
+3047 INFO: Initializing module dependency graph...
+3050 INFO: Initializing module graph hook caches...
+3085 INFO: Analyzing modules for base_library.zip ...
+6266 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+7309 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+9464 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+10951 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+12266 INFO: Caching module dependency graph...
+12337 INFO: Analyzing F:\work Buddy\2026-10-05-17-12-22\MyTransfer\MyTransfer.py
+12522 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+12588 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+12605 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+12979 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+13033 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+14088 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+14335 INFO: Processing module hooks (post-graph stage)...
+14339 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+14352 INFO: Performing binary vs. data reclassification (927 entries)
+15195 INFO: Looking for ctypes DLLs
+15224 INFO: Analyzing run-time hooks ...
+15225 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+15230 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Program Files\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+15261 INFO: Creating base_library.zip...
+15292 INFO: Looking for dynamic libraries
+15881 INFO: Extra DLL search directories (AddDllDirectory): []
+15882 INFO: Extra DLL search directories (PATH): []
+17146 INFO: Warnings written to F:\work Buddy\2026-10-05-17-12-22\MyTransfer\build\握手\warn-握手.txt
+17167 INFO: Graph cross-reference written to F:\work Buddy\2026-10-05-17-12-22\MyTransfer\build\握手\xref-握手.html
+17213 INFO: checking PYZ
+17213 INFO: Building PYZ because PYZ-00.toc is non existent
+17213 INFO: Building PYZ (ZlibArchive) F:\work Buddy\2026-10-05-17-12-22\MyTransfer\build\握手\PYZ-00.pyz
+17450 INFO: Building PYZ (ZlibArchive) F:\work Buddy\2026-10-05-17-12-22\MyTransfer\build\握手\PYZ-00.pyz completed successfully.
+17507 INFO: checking PKG
+17507 INFO: Building PKG because PKG-00.toc is non existent
+17507 INFO: Building PKG (CArchive) 握手.pkg
+21874 INFO: Building PKG (CArchive) 握手.pkg completed successfully.
+21892 INFO: Bootloader C:\Program Files\Python313\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+21892 INFO: checking EXE
+21892 INFO: Building EXE because EXE-00.toc is non existent
+21892 INFO: Building EXE from EXE-00.toc
+21893 INFO: Copying bootloader EXE to F:\work Buddy\2026-10-05-17-12-22\MyTransfer\dist\握手.exe
+22213 INFO: Copying icon to EXE
+22555 INFO: Copying 0 resources to EXE
+22555 INFO: Embedding manifest in EXE
+22901 INFO: Appending PKG archive to EXE
+23002 INFO: Fixing EXE headers
+23110 INFO: Building EXE from EXE-00.toc completed successfully.
+23129 INFO: Build complete! The results are available in: F:\work Buddy\2026-10-05-17-12-22\MyTransfer\dist
